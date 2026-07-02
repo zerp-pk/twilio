@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\ToDo\Events\CompleteToDo;
+use Zerp\ToDo\Events\CompleteToDo;
 use Zerp\Twilio\Services\SendMsg;
 
 class CompleteToDoLis

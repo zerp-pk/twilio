@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\VisitorManagement\Events\CreateVisitPurpose;
+use Zerp\VisitorManagement\Events\CreateVisitPurpose;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateVisitPurposeLis

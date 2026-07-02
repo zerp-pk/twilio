@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use Zerp\ProductService\Models\ProductServiceItem;
-use Workdo\CMMS\Events\CreatePreventiveMaintenance;
+use Zerp\CMMS\Events\CreatePreventiveMaintenance;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreatePreventiveMaintenanceLis

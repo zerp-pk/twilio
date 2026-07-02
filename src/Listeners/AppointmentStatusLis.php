@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\Appointment\Events\AppointmentStatus;
+use Zerp\Appointment\Events\AppointmentStatus;
 use Zerp\Twilio\Services\SendMsg;
 
 class AppointmentStatusLis

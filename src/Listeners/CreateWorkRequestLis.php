@@ -3,8 +3,8 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\CMMS\Events\CreateWorkrequest;
-use Workdo\CMMS\Models\CmmsComponent;
+use Zerp\CMMS\Events\CreateWorkrequest;
+use Zerp\CMMS\Models\CmmsComponent;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateWorkRequestLis

@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\Appointment\Events\CreateSchedule;
+use Zerp\Appointment\Events\CreateSchedule;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateScheduleLis

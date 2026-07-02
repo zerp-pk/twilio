@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\Sales\Events\CreateSalesOrder;
+use Zerp\Sales\Events\CreateSalesOrder;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateSalesOrderLis

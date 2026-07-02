@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\School\Events\CreateEmployee;
+use Zerp\School\Events\CreateEmployee;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateEmployeeLis

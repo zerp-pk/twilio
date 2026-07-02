@@ -2,8 +2,8 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\School\Events\CreateHomework;
-use Workdo\School\Models\SchoolStudent;
+use Zerp\School\Events\CreateHomework;
+use Zerp\School\Models\SchoolStudent;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateHomeworkLis

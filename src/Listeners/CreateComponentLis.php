@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\CMMS\Events\CreateComponent;
+use Zerp\CMMS\Events\CreateComponent;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateComponentLis

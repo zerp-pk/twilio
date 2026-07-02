@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\CleaningManagement\Events\CreateCleaningTeam;
+use Zerp\CleaningManagement\Events\CreateCleaningTeam;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateCleaningTeamLis

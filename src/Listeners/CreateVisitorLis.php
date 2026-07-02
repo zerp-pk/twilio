@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\VisitorManagement\Events\CreateVisitor;
+use Zerp\VisitorManagement\Events\CreateVisitor;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateVisitorLis

@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\Documents\Events\CreateDocument;
+use Zerp\Documents\Events\CreateDocument;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateDocumentsLis

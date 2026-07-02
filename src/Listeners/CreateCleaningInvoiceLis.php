@@ -3,8 +3,8 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\CleaningManagement\Events\CreateCleaningInvoice;
-use Workdo\CleaningManagement\Models\CleaningInspection;
+use Zerp\CleaningManagement\Events\CreateCleaningInvoice;
+use Zerp\CleaningManagement\Models\CleaningInspection;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateCleaningInvoiceLis

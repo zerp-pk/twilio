@@ -2,8 +2,8 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\School\Events\CreateClassTimetable;
-use Workdo\School\Models\SchoolStudent;
+use Zerp\School\Events\CreateClassTimetable;
+use Zerp\School\Models\SchoolStudent;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateClassTimetableLis

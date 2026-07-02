@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\CMMS\Events\CreateLocation;
+use Zerp\CMMS\Events\CreateLocation;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateLocationLis

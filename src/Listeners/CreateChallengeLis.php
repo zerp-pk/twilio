@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\InnovationCenter\Events\CreateChallenge;
+use Zerp\InnovationCenter\Events\CreateChallenge;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateChallengeLis

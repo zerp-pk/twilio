@@ -2,8 +2,8 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\HospitalManagement\Models\HospitalSpecialization;
-use Workdo\HospitalManagement\Events\CreateHospitalDoctor;
+use Zerp\HospitalManagement\Models\HospitalSpecialization;
+use Zerp\HospitalManagement\Events\CreateHospitalDoctor;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateHospitalDoctorLis

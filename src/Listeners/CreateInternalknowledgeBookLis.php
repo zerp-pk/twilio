@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeBook;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeBook;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateInternalknowledgeBookLis

@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\InnovationCenter\Events\CreateCategory;
+use Zerp\InnovationCenter\Events\CreateCategory;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateCategoryLis

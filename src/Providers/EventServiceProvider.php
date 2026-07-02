@@ -18,42 +18,42 @@ use Zerp\Account\Events\CreateCustomer;
 use Zerp\Account\Events\CreateRevenue;
 use Zerp\Account\Events\CreateVendor;
 
-use Workdo\Appointment\Events\AppointmentStatus;
-use Workdo\Appointment\Events\CreateSchedule;
+use Zerp\Appointment\Events\AppointmentStatus;
+use Zerp\Appointment\Events\CreateSchedule;
 
-use Workdo\CleaningManagement\Events\CreateCleaningBooking;
-use Workdo\CleaningManagement\Events\CreateCleaningInvoice;
-use Workdo\CleaningManagement\Events\CreateCleaningTeam;
+use Zerp\CleaningManagement\Events\CreateCleaningBooking;
+use Zerp\CleaningManagement\Events\CreateCleaningInvoice;
+use Zerp\CleaningManagement\Events\CreateCleaningTeam;
 
-use Workdo\CMMS\Events\CreateCmmsPos;
-use Workdo\CMMS\Events\CreateComponent;
-use Workdo\CMMS\Events\CreateLocation;
-use Workdo\CMMS\Events\CreatePreventiveMaintenance;
-use Workdo\CMMS\Events\CreateSupplier;
-use Workdo\CMMS\Events\CreateWorkOrder;
-use Workdo\CMMS\Events\CreateWorkRequest;
+use Zerp\CMMS\Events\CreateCmmsPos;
+use Zerp\CMMS\Events\CreateComponent;
+use Zerp\CMMS\Events\CreateLocation;
+use Zerp\CMMS\Events\CreatePreventiveMaintenance;
+use Zerp\CMMS\Events\CreateSupplier;
+use Zerp\CMMS\Events\CreateWorkOrder;
+use Zerp\CMMS\Events\CreateWorkRequest;
 
 use Zerp\Contract\Events\CreateContract;
 
-use Workdo\Documents\Events\CreateDocument;
-use Workdo\Documents\Events\StatusChangeDocument;
+use Zerp\Documents\Events\CreateDocument;
+use Zerp\Documents\Events\StatusChangeDocument;
 
-use Workdo\Feedback\Events\CreateHistory;
-use Workdo\Feedback\Events\CreateTemplate;
+use Zerp\Feedback\Events\CreateHistory;
+use Zerp\Feedback\Events\CreateTemplate;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentAccessory;
-use Workdo\FixEquipment\Events\CreateFixEquipmentAsset;
-use Workdo\FixEquipment\Events\CreateFixEquipmentAudit;
-use Workdo\FixEquipment\Events\CreateFixEquipmentComponent;
-use Workdo\FixEquipment\Events\CreateFixEquipmentConsumable;
-use Workdo\FixEquipment\Events\CreateFixEquipmentLicense;
-use Workdo\FixEquipment\Events\CreateFixEquipmentLocation;
-use Workdo\FixEquipment\Events\CreateFixEquipmentMaintenance;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAccessory;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAsset;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAudit;
+use Zerp\FixEquipment\Events\CreateFixEquipmentComponent;
+use Zerp\FixEquipment\Events\CreateFixEquipmentConsumable;
+use Zerp\FixEquipment\Events\CreateFixEquipmentLicense;
+use Zerp\FixEquipment\Events\CreateFixEquipmentLocation;
+use Zerp\FixEquipment\Events\CreateFixEquipmentMaintenance;
 
-use Workdo\HospitalManagement\Events\CreateHospitalAppointment;
-use Workdo\HospitalManagement\Events\CreateHospitalDoctor;
-use Workdo\HospitalManagement\Events\CreateHospitalMedicine;
-use Workdo\HospitalManagement\Events\CreateHospitalPatient;
+use Zerp\HospitalManagement\Events\CreateHospitalAppointment;
+use Zerp\HospitalManagement\Events\CreateHospitalDoctor;
+use Zerp\HospitalManagement\Events\CreateHospitalMedicine;
+use Zerp\HospitalManagement\Events\CreateHospitalPatient;
 
 use Zerp\Hrm\Events\CreateAnnouncement;
 use Zerp\Hrm\Events\CreateAward;
@@ -62,11 +62,11 @@ use Zerp\Hrm\Events\CreateHoliday;
 use Zerp\Hrm\Events\CreatePayroll;
 use Zerp\Hrm\Events\UpdateLeaveStatus;
 
-use Workdo\InnovationCenter\Events\CreateCategory;
-use Workdo\InnovationCenter\Events\CreateChallenge;
-use Workdo\InnovationCenter\Events\CreateCreativity;
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeArticle;
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeBook;
+use Zerp\InnovationCenter\Events\CreateCategory;
+use Zerp\InnovationCenter\Events\CreateChallenge;
+use Zerp\InnovationCenter\Events\CreateCreativity;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeArticle;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeBook;
 
 use Zerp\Lead\Events\CreateDeal;
 use Zerp\Lead\Events\CreateLead;
@@ -74,21 +74,21 @@ use Zerp\Lead\Events\DealMoved;
 use Zerp\Lead\Events\LeadConvertDeal;
 use Zerp\Lead\Events\LeadMoved;
 
-use Workdo\MachineRepairManagement\Events\CreateMachine;
-use Workdo\MachineRepairManagement\Events\CreateMachineRepairRequest;
+use Zerp\MachineRepairManagement\Events\CreateMachine;
+use Zerp\MachineRepairManagement\Events\CreateMachineRepairRequest;
 
-use Workdo\Notes\Events\CreateNote;
+use Zerp\Notes\Events\CreateNote;
 
-use Workdo\Sales\Events\CreateSalesMeeting;
-use Workdo\Sales\Events\CreateSalesOrder;
-use Workdo\Sales\Events\CreateSalesQuote;
+use Zerp\Sales\Events\CreateSalesMeeting;
+use Zerp\Sales\Events\CreateSalesOrder;
+use Zerp\Sales\Events\CreateSalesQuote;
 
-use Workdo\School\Events\CreateAdmission;
-use Workdo\School\Events\CreateClassTimetable;
-use Workdo\School\Events\CreateEmployee;
-use Workdo\School\Events\CreateHomework;
-use Workdo\School\Events\CreateParent;
-use Workdo\School\Events\CreateStudent;
+use Zerp\School\Events\CreateAdmission;
+use Zerp\School\Events\CreateClassTimetable;
+use Zerp\School\Events\CreateEmployee;
+use Zerp\School\Events\CreateHomework;
+use Zerp\School\Events\CreateParent;
+use Zerp\School\Events\CreateStudent;
 
 use Zerp\Taskly\Events\CreateProjectBug;
 use Zerp\Taskly\Events\CreateProject;
@@ -99,8 +99,8 @@ use Zerp\Taskly\Events\UpdateProjectTaskStage;
 
 use Zerp\Timesheet\Events\CreateTimesheet;
 
-use Workdo\ToDo\Events\CompleteToDo;
-use Workdo\ToDo\Events\CreateToDo;
+use Zerp\ToDo\Events\CompleteToDo;
+use Zerp\ToDo\Events\CreateToDo;
 
 use Zerp\Twilio\Listeners\AppointmentStatusLis;
 use Zerp\Twilio\Listeners\CompleteToDoLis;
@@ -184,10 +184,10 @@ use Zerp\Twilio\Listeners\StatusChangeDocumentLis;
 use Zerp\Twilio\Listeners\UpdateLeaveStatusLis;
 use Zerp\Twilio\Listeners\UpdateProjectTaskStageLis;
 
-use Workdo\VisitorManagement\Events\CreateVisitor;
-use Workdo\VisitorManagement\Events\CreateVisitPurpose;
+use Zerp\VisitorManagement\Events\CreateVisitor;
+use Zerp\VisitorManagement\Events\CreateVisitPurpose;
 
-use Workdo\WordpressWoocommerce\Events\CreateWoocommerceProduct;
+use Zerp\WordpressWoocommerce\Events\CreateWoocommerceProduct;
 
 use Zerp\ZoomMeeting\Events\CreateZoomMeeting;
 

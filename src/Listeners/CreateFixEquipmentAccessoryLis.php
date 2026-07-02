@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\FixEquipment\Events\CreateFixEquipmentAccessory;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAccessory;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateFixEquipmentAccessoryLis

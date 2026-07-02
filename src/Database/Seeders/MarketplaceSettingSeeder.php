@@ -18,7 +18,7 @@ class MarketplaceSettingSeeder extends Seeder
             $files = File::files($marketplaceDir);
             foreach ($files as $file) {
                 if (in_array($file->getExtension(), ['png', 'jpg', 'jpeg', 'gif', 'webp'])) {
-                    $screenshots[] = '/packages/workdo/Twilio/src/marketplace/' . $file->getFilename();
+                    $screenshots[] = '/packages/local/Twilio/src/marketplace/' . $file->getFilename();
                 }
             }
         }
@@ -55,19 +55,19 @@ class MarketplaceSettingSeeder extends Seeder
                                 'title'       => 'Twilio API Configuration & Authentication',
                                 'description' => 'Set up and configure enterprise-grade Twilio API integration with secure credential management, phone number provisioning, and comprehensive service configuration. Establish verified communication channels with Twilio Account SID, Auth Token management, and automated phone number verification for reliable SMS, voice, and video communication services.',
                                 'keyPoints'   => ['Secure Twilio API credential management and authentication', 'Automated phone number provisioning and verification system', 'Comprehensive service configuration for SMS, voice, and video', 'Enterprise-grade security protocols and compliance management'],
-                                'screenshot'  => '/packages/workdo/Twilio/src/marketplace/image1.png'
+                                'screenshot'  => '/packages/local/Twilio/src/marketplace/image1.png'
                             ],
                             [
                                 'title'       => 'Multi-Channel Messaging & Voice Services',
                                 'description' => 'Deploy intelligent multi-channel communication with SMS messaging, voice calls, video conferencing, and automated notification systems. Create personalized customer journeys with automated responses, scheduled campaigns, and event-triggered communications while maintaining delivery tracking and engagement analytics across all communication channels.',
                                 'keyPoints'   => ['Multi-channel SMS, voice, and video communication capabilities', 'Automated messaging campaigns with personalized customer journeys', 'Real-time delivery tracking and engagement analytics', 'Event-triggered notifications and scheduled communication workflows'],
-                                'screenshot'  => '/packages/workdo/Twilio/src/marketplace/image2.png'
+                                'screenshot'  => '/packages/local/Twilio/src/marketplace/image2.png'
                             ],
                             [
                                 'title'       => 'Advanced Communication Analytics & Management',
                                 'description' => 'Monitor and manage comprehensive communication performance with detailed analytics covering message delivery rates, call quality metrics, and customer engagement insights. Generate comprehensive reports with cost analysis, usage statistics, and communication effectiveness metrics for optimized customer outreach and support strategies.',
                                 'keyPoints'   => ['Comprehensive communication analytics and performance metrics', 'Cost analysis and usage statistics for budget optimization', 'Customer engagement insights and communication effectiveness tracking', 'Advanced reporting dashboard with real-time monitoring capabilities'],
-                                'screenshot'  => '/packages/workdo/Twilio/src/marketplace/image3.png'
+                                'screenshot'  => '/packages/local/Twilio/src/marketplace/image3.png'
                             ]
                         ]
                     ],

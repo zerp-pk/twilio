@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\Notes\Events\CreateNote;
+use Zerp\Notes\Events\CreateNote;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateNoteLis

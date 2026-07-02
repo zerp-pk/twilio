@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\WordpressWoocommerce\Events\CreateWoocommerceProduct;
+use Zerp\WordpressWoocommerce\Events\CreateWoocommerceProduct;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateWoocommerceProductLis

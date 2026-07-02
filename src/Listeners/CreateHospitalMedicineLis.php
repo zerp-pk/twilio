@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\HospitalManagement\Events\CreateHospitalMedicine;
+use Zerp\HospitalManagement\Events\CreateHospitalMedicine;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateHospitalMedicineLis

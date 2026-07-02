@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\Documents\Events\StatusChangeDocument;
+use Zerp\Documents\Events\StatusChangeDocument;
 use Zerp\Twilio\Services\SendMsg;
 
 class StatusChangeDocumentLis

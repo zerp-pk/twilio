@@ -2,8 +2,8 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\MachineRepairManagement\Events\CreateMachineRepairRequest;
-use Workdo\MachineRepairManagement\Models\Machine;
+use Zerp\MachineRepairManagement\Events\CreateMachineRepairRequest;
+use Zerp\MachineRepairManagement\Models\Machine;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateMachineRepairRequestLis

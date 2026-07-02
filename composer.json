@@ -1,6 +1,6 @@
 {
     "name": "zerp/twilio",
-    "description": "Description for twilio package",
+    "description": "Twilio SMS integration module for the Zerp ERP platform",
     "type": "library",
     "license": "MIT",
     "require": {},

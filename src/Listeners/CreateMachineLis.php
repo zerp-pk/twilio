@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\MachineRepairManagement\Events\CreateMachine;
+use Zerp\MachineRepairManagement\Events\CreateMachine;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateMachineLis

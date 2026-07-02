@@ -3,7 +3,7 @@
 namespace Zerp\Twilio\Listeners;
 
 use App\Models\User;
-use Workdo\School\Events\CreateParent;
+use Zerp\School\Events\CreateParent;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateParentLis

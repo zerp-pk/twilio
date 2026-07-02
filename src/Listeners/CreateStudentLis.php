@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\School\Events\CreateStudent;
+use Zerp\School\Events\CreateStudent;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateStudentLis

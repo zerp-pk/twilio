@@ -2,7 +2,7 @@
 
 namespace Zerp\Twilio\Listeners;
 
-use Workdo\CMMS\Events\CreateSupplier;
+use Zerp\CMMS\Events\CreateSupplier;
 use Zerp\Twilio\Services\SendMsg;
 
 class CreateSupplierLis
